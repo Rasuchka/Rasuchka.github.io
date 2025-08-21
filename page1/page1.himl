@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Загрузка фото</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Загрузите фото</h1>
+
+  <input type="file" accept="image/*" id="fileInput">
+  <br><br>
+  <img id="preview" src="" alt="Ваше изображение" style="max-width: 100%; display: none;">
+
+  <script src="script.js"></script>
+</body>
+</html>
